@@ -1,23 +1,48 @@
-import logo from './logo.svg';
 import './App.css';
+import Calc from './Calc.js';
+import React, { useState } from 'react';
+
+
 
 function App() {
+  const [current, setCurrent] = useState(90);
+  const [final, setFinal] = useState(20);
+  const [point, setPoint] = useState(10);
+  const [custom, setCustom] = useState(100);
+
+
+  const [name, setName] = useState("");
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Final Grade Calculator</h1>
+      <form>
+        <label>
+          Current Grade:
+            </label>
+
+        <input
+          type="text"
+          value={current}
+          onChange={e => setCurrent(e.target.value)}
+        />
+        <br></br>
+        <label>
+          Final Weight            </label>
+        <input
+          type="text"
+          value={final}
+          onChange={e => setFinal(e.target.value)}
+        />
+        <br></br>
+        <label>
+          Custom Goal            </label>
+        <input
+          type="text"
+          value={custom}
+          onChange={e => setCustom(e.target.value)}
+        />
+      </form>
+      <Calc currentGrade={current} finalGrade={final} custom={custom} />
     </div>
   );
 }
