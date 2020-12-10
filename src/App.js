@@ -7,11 +7,7 @@ import React, { useState } from 'react';
 function App() {
   const [current, setCurrent] = useState(90);
   const [final, setFinal] = useState(20);
-  const [point, setPoint] = useState(10);
   const [custom, setCustom] = useState(100);
-
-
-  const [name, setName] = useState("");
   return (
     <div className="App">
       <h1>Final Grade Calculator</h1>
@@ -21,7 +17,7 @@ function App() {
             </label>
 
         <input
-          type="text"
+          type="number"
           value={current}
           onChange={e => setCurrent(e.target.value)}
         />
@@ -29,7 +25,7 @@ function App() {
         <label>
           Final Weight            </label>
         <input
-          type="text"
+          type="number"
           value={final}
           onChange={e => setFinal(e.target.value)}
         />
@@ -37,7 +33,7 @@ function App() {
         <label>
           Custom Goal            </label>
         <input
-          type="text"
+          type="number"
           value={custom}
           onChange={e => setCustom(e.target.value)}
         />
