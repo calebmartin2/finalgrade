@@ -6,7 +6,7 @@ function Calc(props) {
             {/* <h1>currentGrade: {props.currentGrade}</h1>
             <h1>finalGrade: {props.finalGrade}</h1> */}
             {/* <h1>pointScale: {props.pointScale}</h1> */}
-            <h2>Custom: {props.custom}%</h2>
+            <h2>Custom: {props.custom === '' ? 0 : props.custom}%</h2>
             <CalcFunc percent={props.custom} currentGrade={props.currentGrade} finalGrade={props.finalGrade}/>
 
             <h2>90%:</h2>
