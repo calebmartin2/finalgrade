@@ -1,13 +1,13 @@
 import './index.css'
 
 function CalcFunc(props) {
-  if (props.currentGrade !== "" && props.finalGrade !== "") {
+  if (props.current !== "" && props.final !== "") {
     return (
       <h3 className='CalcOutput'>
         {Math.round(
-          (((props.percent / 100 -
-            (props.currentGrade / 100) * (1 - props.finalGrade / 100)) /
-            (props.finalGrade / 100)) *
+          (((props.custom / 100 -
+            (props.current / 100) * (1 - props.final / 100)) /
+            (props.final / 100)) *
             100 +
             Number.EPSILON) *
             100

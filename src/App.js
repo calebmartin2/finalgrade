@@ -33,7 +33,7 @@ function App() {
           onChange={(e) => setCustom(e.target.value)}
         />
       </form>
-      <Calc currentGrade={current} finalGrade={final} custom={custom} />
+      <Calc current={current} final={final} custom={custom} />
     </div>
   );
 }
