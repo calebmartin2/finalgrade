@@ -6,7 +6,7 @@ import './index.css'
 function App() {
   const [current, setCurrent] = useState(90);
   const [final, setFinal] = useState(20);
-  const [pointScale, setPointScale] = useState(10);
+  const [pointScale, setPointScale] = useState("10");
   return (
     <div className="App">
       <h1>Final Grade Calculator</h1>
@@ -26,8 +26,8 @@ function App() {
         />
         <label>Point Scale: </label>
         <br/>
-        <input type="radio" value={10} name="pointScale" onChange={(e) => setPointScale(e.target.value) } defaultChecked />10
-        <input type="radio" value={7} name="pointScale" onChange={(e) => setPointScale(e.target.value)}/>7
+        <input type="radio" value="10" name="pointScale" onChange={(e) => setPointScale(e.target.value) } defaultChecked />10
+        <input type="radio" value="7" name="pointScale" onChange={(e) => setPointScale(e.target.value)}/>7
       </form>
       <Calc current={current} final={final} pointScale={pointScale}/>
     </div>
