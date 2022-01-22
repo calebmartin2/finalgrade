@@ -11,25 +11,26 @@ function App() {
     <div className="App">
       <h1>Final Grade Calculator</h1>
       <form className="GradeForm">
-        <label>Current Grade: </label>
+        <label>Current Grade:</label>
         <input
           type="number"
-          value={current}
+          placeholder={current}
           onChange={(e) => setCurrent(e.target.value)}
         />
-        <br/>
-        <label>Final Weight: </label>
+        <br />
+        <label>Final Weight:</label>
         <input
           type="number"
-          value={final}
+          placeholder={final}
           onChange={(e) => setFinal(e.target.value)}
         />
-        <label>Point Scale: </label>
-        <br/>
-        <input type="radio" value="10" name="pointScale" onChange={(e) => setPointScale(e.target.value) } defaultChecked />10
-        <input type="radio" value="7" name="pointScale" onChange={(e) => setPointScale(e.target.value)}/>7
+        <label>Point Scale:</label>
+        <br />
+        <input type="radio" value="10" name="pointScale" onChange={(e) => setPointScale(e.target.value)} defaultChecked />10
+        <input type="radio" value="7" name="pointScale" onChange={(e) => setPointScale(e.target.value)} />7
       </form>
-      <Calc current={current} final={final} pointScale={pointScale}/>
+      <Calc current={current} final={final} pointScale={pointScale} />
+      <a href="https://github.com/calebmartin2/finalgrade"><p>Repo Link</p></a>
     </div>
   );
 }
