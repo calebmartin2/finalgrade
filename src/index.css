@@ -41,3 +41,17 @@ code {
   font-size: 20px;
   margin-top: -0.7em;
 }
+
+.TargetGrade {
+  background-color: white;
+  color: black;
+  padding-left: .2em;
+  padding-right: .2em;
+  border-radius: 0.2em;
+}
+
+.GithubCorner {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}

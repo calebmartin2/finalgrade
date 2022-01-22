@@ -16,13 +16,13 @@ function Calc(props) {
             To get {obj.gradeLetter === "A" ? "an" : "a"} {obj.gradeLetter} ({props.pointScale === "10" ? obj.grade10 : obj.grade7}%) in the class:
           </h2>
           <h3 className='CalcOutput'>
-            you need to make a
+            you need to make a 
             <CalcFunc
               custom={props.pointScale === "10" ? obj.grade10 : obj.grade7}
               current={props.current}
               final={props.final}
             />
-            % on the final exam
+             on the final exam
           </h3>
         </div>
       ))}
