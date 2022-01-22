@@ -1,22 +1,16 @@
 {
   "files": {
-    "main.css": "/finalgrade/static/css/main.0698a73e.chunk.css",
-    "main.js": "/finalgrade/static/js/main.9f513e76.chunk.js",
-    "main.js.map": "/finalgrade/static/js/main.9f513e76.chunk.js.map",
-    "runtime-main.js": "/finalgrade/static/js/runtime-main.660dfc12.js",
-    "runtime-main.js.map": "/finalgrade/static/js/runtime-main.660dfc12.js.map",
-    "static/js/2.ce8d99ac.chunk.js": "/finalgrade/static/js/2.ce8d99ac.chunk.js",
-    "static/js/2.ce8d99ac.chunk.js.map": "/finalgrade/static/js/2.ce8d99ac.chunk.js.map",
-    "static/js/3.f79419b2.chunk.js": "/finalgrade/static/js/3.f79419b2.chunk.js",
-    "static/js/3.f79419b2.chunk.js.map": "/finalgrade/static/js/3.f79419b2.chunk.js.map",
+    "main.css": "/finalgrade/static/css/main.b52e7ca7.css",
+    "main.js": "/finalgrade/static/js/main.107a2c05.js",
+    "static/js/377.46e0f270.chunk.js": "/finalgrade/static/js/377.46e0f270.chunk.js",
     "index.html": "/finalgrade/index.html",
-    "static/css/main.0698a73e.chunk.css.map": "/finalgrade/static/css/main.0698a73e.chunk.css.map",
-    "static/js/2.ce8d99ac.chunk.js.LICENSE.txt": "/finalgrade/static/js/2.ce8d99ac.chunk.js.LICENSE.txt"
+    "static/media/github-corner-right.svg": "/finalgrade/static/media/github-corner-right.eb92e56d99787b75d2e8b4caa2cc0ad6.svg",
+    "main.b52e7ca7.css.map": "/finalgrade/static/css/main.b52e7ca7.css.map",
+    "main.107a2c05.js.map": "/finalgrade/static/js/main.107a2c05.js.map",
+    "377.46e0f270.chunk.js.map": "/finalgrade/static/js/377.46e0f270.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.660dfc12.js",
-    "static/js/2.ce8d99ac.chunk.js",
-    "static/css/main.0698a73e.chunk.css",
-    "static/js/main.9f513e76.chunk.js"
+    "static/css/main.b52e7ca7.css",
+    "static/js/main.107a2c05.js"
   ]
 }
