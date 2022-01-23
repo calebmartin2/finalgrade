@@ -13,9 +13,7 @@ function Calc(props) {
       {gradeObjects.map((obj, index) => (
         <div key={index}>
           <h2 className="calc-header" >
-            To get {obj.gradeLetter === "A" ? "an" : "a"} <span style={{ color: obj.color}}>{obj.gradeLetter} ({props.pointScale === "10" ? obj.grade10 : obj.grade7}%)</span> in the class:
-          </h2>
-          <h3 className='CalcOutput'>
+            To get {obj.gradeLetter === "A" ? "an" : "a"} <span style={{ color: obj.color}}>{obj.gradeLetter} ({props.pointScale === "10" ? obj.grade10 : obj.grade7}%)</span> in the class
             you need to make a 
             <CalcFunc
               custom={props.pointScale === "10" ? obj.grade10 : obj.grade7}
@@ -24,7 +22,7 @@ function Calc(props) {
               color={obj.color}
             />
              on the final exam.
-          </h3>
+          </h2>
         </div>
       ))}
     </div>

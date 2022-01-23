@@ -9,40 +9,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
-  color: white;
+  color: rgb(188, 251, 255);
   margin: 40px auto;
-  max-width: 650px;
+  max-width: 30em;
   line-height: 1.6;
-  font-size: 18px;
+  /* font-size: 20px; */
   padding: 0 10px;
-
+  background-color: #00101f;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.GradeForm label {
+  font-size: 30px;
+}
+
+.GradeNumberInput {
+  font-size: 20px;
+  width: 4em;
+  border-radius: 0.3em;
+}
+.GradeInputPointLabel {
+  font-size: 1.5em;
 }
 
 .GradeForm {
-  width: 10em;
-}
-
-.CalcOutput {
-  padding-left: 0.5em;
-  margin-top: -1.5em;
+  background-color: #00203b;
+  padding: 2em;
+  border-radius: 10px;
 }
 
 .CalcError {
   padding-left: 1em;
   color: red;
-}
-
-.calc-header {
-  border-radius: 10px;
-  padding: 10px;
-  font-size: 20px;
-  margin-top: -0.7em;
 }
 
 .TargetGrade {
