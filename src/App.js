@@ -8,7 +8,6 @@ function App() {
   const [current, setCurrent] = useState(90);
   const [final, setFinal] = useState(20);
   const [pointScale, setPointScale] = useState("10");
-  console.log(final)
   return (
     <div className="App">
       <h1>Final Grade Calculator</h1>
@@ -38,7 +37,7 @@ function App() {
       : <h1 className="CalcError">Input is blank.</h1>
       }
       {/* Github Corner from https://github.com/tholman/github-corners */}
-      <a href="https://github.com/calebmartin2/finalgrade"><img src={GithubCorner} className="GithubCorner"></img></a>
+      <a href="https://github.com/calebmartin2/finalgrade"><img src={GithubCorner} alt='GitHub Corner' className="GithubCorner"></img></a>
     </div>
   );
 }

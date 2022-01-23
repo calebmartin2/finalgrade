@@ -2,7 +2,7 @@ import './index.css'
 
 function CalcFunc(props) {
   return (
-    <span className="TargetGrade">
+    <span className="TargetGrade" style={{backgroundColor: props.color}}>
       {Math.round(
         (((props.custom / 100 -
           (props.current / 100) * (1 - props.final / 100)) /

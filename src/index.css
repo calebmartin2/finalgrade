@@ -25,8 +25,8 @@ code {
 }
 
 .CalcOutput {
-  padding-left: 2em;
-  margin-top: -0.7em;
+  padding-left: 0.5em;
+  margin-top: -1.5em;
 }
 
 .CalcError {
@@ -37,13 +37,11 @@ code {
 .calc-header {
   border-radius: 10px;
   padding: 10px;
-  color: black;
   font-size: 20px;
   margin-top: -0.7em;
 }
 
 .TargetGrade {
-  background-color: white;
   color: black;
   padding-left: .2em;
   padding-right: .2em;
