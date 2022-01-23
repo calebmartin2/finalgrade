@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/finalgrade/static/css/main.b52e7ca7.css",
-    "main.js": "/finalgrade/static/js/main.107a2c05.js",
+    "main.css": "/finalgrade/static/css/main.350361e2.css",
+    "main.js": "/finalgrade/static/js/main.deeb9262.js",
     "static/js/377.46e0f270.chunk.js": "/finalgrade/static/js/377.46e0f270.chunk.js",
+    "static/media/Museo700-Regular.otf": "/finalgrade/static/media/Museo700-Regular.8d2cbb04dda44bdbc5ae.otf",
     "index.html": "/finalgrade/index.html",
     "static/media/github-corner-right.svg": "/finalgrade/static/media/github-corner-right.eb92e56d99787b75d2e8b4caa2cc0ad6.svg",
-    "main.b52e7ca7.css.map": "/finalgrade/static/css/main.b52e7ca7.css.map",
-    "main.107a2c05.js.map": "/finalgrade/static/js/main.107a2c05.js.map",
+    "main.350361e2.css.map": "/finalgrade/static/css/main.350361e2.css.map",
+    "main.deeb9262.js.map": "/finalgrade/static/js/main.deeb9262.js.map",
     "377.46e0f270.chunk.js.map": "/finalgrade/static/js/377.46e0f270.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b52e7ca7.css",
-    "static/js/main.107a2c05.js"
+    "static/css/main.350361e2.css",
+    "static/js/main.deeb9262.js"
   ]
 }
